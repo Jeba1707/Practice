@@ -1,5 +1,5 @@
 name = "Wajiha Tasnim"
-
+#-------------contains and find methods----------------
 print("Tasnim" in name)  # True
 print("Wajiha" not in name)  # False
 
@@ -57,3 +57,10 @@ print(order.format(5, 99.99))  # Output: You have ordered 5 items worth $99.99
 item = input("enter order item: ")
 price = input("enter price: ")
 print(order.format(item, price))  # Output: You have ordered <item> items worth $<price>.
+
+#-------------raw strings----------------
+# Raw strings are used to treat backslashes as literal characters
+path = r"C:\Users\Jeba\Documents\file.txt"
+# or
+path2 = "C:\\Users\\Jeba\\Documents\\file.txt"  # Using double backslashes to escape
+print(path)  # Output: C:\Users\Jeba\Documents\file.txt
