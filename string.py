@@ -64,3 +64,9 @@ path = r"C:\Users\Jeba\Documents\file.txt"
 # or
 path2 = "C:\\Users\\Jeba\\Documents\\file.txt"  # Using double backslashes to escape
 print(path)  # Output: C:\Users\Jeba\Documents\file.txt
+
+#-------------length of string----------------
+# The len() function is used to calculate the length of a string
+school = "institute of science trade and technology"
+len = len(school) #calculate the length of the string
+print(len)  # Output: 40
