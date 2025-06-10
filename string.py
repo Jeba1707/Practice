@@ -58,12 +58,12 @@ item = input("enter order item: ")
 price = input("enter price: ")
 print(order.format(item, price))  # Output: You have ordered <item> items worth $<price>.
 
-#-------------raw strings----------------
-# Raw strings are used to treat backslashes as literal characters
-path = r"C:\Users\Jeba\Documents\file.txt"
-# or
-path2 = "C:\\Users\\Jeba\\Documents\\file.txt"  # Using double backslashes to escape
-print(path)  # Output: C:\Users\Jeba\Documents\file.txt
+# #-------------raw strings----------------
+# # Raw strings are used to treat backslashes as literal characters
+# path = r"C:\Users\Jeba\Documents\file.txt"
+# # or
+# path2 = "C:\\Users\\Jeba\\Documents\\file.txt"  # Using double backslashes to escape
+# print(path)  # Output: C:\Users\Jeba\Documents\file.txt
 
 #-------------length of string----------------
 # The len() function is used to calculate the length of a string
